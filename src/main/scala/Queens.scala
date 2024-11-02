@@ -4,6 +4,7 @@ object Queens {
   //program to guide students from Big Data School of Alfa bank
   //Arrange the 8 queens on the chessboard so that they do not attack each other.
   // If you can write a program for the board n*n
+  //No life codding, took about 4 hours.
 
   private def getQueens(n: Int): List[List[(Int, Int)]] = {
 

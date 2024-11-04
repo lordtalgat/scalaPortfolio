@@ -18,6 +18,7 @@ object Main {
         case "CatsFilesExample" => CatsFilesExample.copy(new File("test.txt"),new File("testCopy.txt")) // new have file
         case "zipList" => ZipLists.run()
         case "Futures" => println("Please run future in object")
+        case "SSH" => SSH.run()
         case _ => println("Couldn't find mini program you try to run")
       }
     } else {

@@ -7,5 +7,6 @@ scalaVersion := "2.13.8"
 idePackagePrefix := Some("org.talgat.shakirov")
 
 libraryDependencies ++=Seq(
-  "org.typelevel" %% "cats-effect" % "2.3.1"
+  "org.typelevel" %% "cats-effect" % "2.3.1",
+  "fr.janalyse" %% "janalyse-ssh" % "1.1.0"
 )

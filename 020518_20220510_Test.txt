@@ -1,0 +1,18 @@
+<config>
+	<details>
+	<excludeCommunicationInfo>yes</excludeCommunicationInfo>
+		<employeeReferences>
+			<refRecord showAfter2300Block="true">>
+				<code>1L</code>
+				<type>fixed</type>
+				<value>005924520000000</value>
+			</refRecord>
+		</employeeReferences>
+		<hdRecord>
+			<insuranceLine>
+				<type>fixed</type>
+				<value>DEN</value>
+			</insuranceLine>
+		</hdRecord>
+	</details>
+</config>
